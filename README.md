@@ -6,7 +6,5 @@ frontier conditions.
 of arrays in problems related with Reaction-Difusion Systems
 with constant Difusion Coefficient or with tensorial coeffi-
 cient X_ as
-         _       _
-         V . (X_ Vu)  or  div(X_ grad(u)).
-    
+                  div(X_ grad(u)).
 
