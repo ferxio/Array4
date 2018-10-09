@@ -8,11 +8,11 @@ with constant Difusion Coefficient or with tensorial coefficient X_ as
                   div(X_ grad(u)).
 A list fo functions there
 
-export argmaxind
+   export argmaxind
    export argminind
-   export dij # distancia euclidiana entre dos SD's
+   export dij # euclidean distance between SD's or vectors
    
-   ### numericos
+   ### numeric
    #############
 
    export partial1
@@ -23,8 +23,8 @@ export argmaxind
    export Lap_5
    export Lap_9
 
-   ###  suma de vecinos AC
-   #######################
+   ###  sum of adjacent cells (CA)
+   #################################
 
    export Sum_4
    export Sum_8
@@ -56,7 +56,9 @@ export argmaxind
 ########### EXTREMA ##########
 ##############################
 
-### local maxima
+   ### local maxima
+   ##################
+   
    export FindLocalExtrema
    export FindLocalMaxima
    export FindLocalMinima
@@ -71,7 +73,7 @@ export argmaxind
    export FrontierConst!
 
    ### files
-   ############
+   ###########
    
    export savearray
    export loadarray
