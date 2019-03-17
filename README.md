@@ -1,4 +1,4 @@
-# Array4
+# Array4.jl
  A set of array management tools in Julia (from python)
 with functions to evaluate differential operators or
 frontier conditions.
