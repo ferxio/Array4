@@ -48,7 +48,7 @@ A list fo functions there
 ########## STAT ##########
 ##########################
 
-### HISTOGRAM
+### Statistics
    export Histogram
    
    export Theta
